@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Самир и Диана — 12.11.2026</title>
+  <meta name="description" content="Свадебное приглашение Самир и Диана — 12.11.2026" />
+  <meta property="og:title" content="Самир и Диана" />
+  <meta property="og:description" content="Приглашаем вас на нашу свадьбу — 12.11.2026" />
+  <meta property="og:image" content="assets/main.jpg" />
+  <meta name="theme-color" content="#eee9e1" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Great+Vibes&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="phone">
+    <section class="screen hero">
+      <div class="circle-photo reveal">
+        <img src="assets/main.jpg" alt="Самир и Диана">
+      </div>
+      <p class="small reveal delay-1">приглашение на свадьбу</p>
+      <h1 class="reveal delay-2">Самир<br><span>&</span><br>Диана</h1>
+      <p class="date reveal delay-3">12 · 11 · 2026</p>
+      <div class="scroll-hint">листайте вниз</div>
+    </section>
+
+    <section class="screen text-screen">
+      <p class="mini">дорогие родные и друзья</p>
+      <h2>Мы будем счастливы<br>разделить с вами<br>этот особенный день</h2>
+      <p class="note">Ваше присутствие станет для нас самым тёплым подарком.</p>
+    </section>
+
+    <section class="screen countdown-screen">
+      <p class="mini">до свадьбы осталось</p>
+      <div class="countdown">
+        <div><b id="days">0</b><span>дней</span></div>
+        <div><b id="hours">00</b><span>часов</span></div>
+        <div><b id="minutes">00</b><span>минут</span></div>
+        <div><b id="seconds">00</b><span>секунд</span></div>
+      </div>
+    </section>
+
+    <section class="screen program">
+      <p class="mini">программа дня</p>
+      <div class="line"></div>
+      <article>
+        <span>01</span>
+        <h3>Сбор гостей</h3>
+        <p>ул. Суздальская, 10</p>
+        <a href="https://yandex.ru/maps/?text=ул.%20Суздальская%2010" target="_blank">Открыть карту</a>
+      </article>
+      <article>
+        <span>02</span>
+        <h3>Торжество</h3>
+        <p>ул. Суздальская, 12</p>
+        <a href="https://yandex.ru/maps/?text=ул.%20Суздальская%2012" target="_blank">Открыть карту</a>
+      </article>
+    </section>
+
+    <section class="screen dress">
+      <p class="mini">dress code</p>
+      <h2>Будем рады видеть вас<br>в спокойных вечерних оттенках</h2>
+      <div class="colors">
+        <i></i><i></i><i></i><i></i><i></i>
+      </div>
+    </section>
+
+    <section class="screen form-screen">
+      <p class="mini">подтвердите присутствие</p>
+      <form id="rsvpForm">
+        <input name="name" placeholder="Ваше имя" required>
+        <select name="presence" required>
+          <option value="">Вы придёте?</option>
+          <option>Да, с радостью</option>
+          <option>К сожалению, не смогу</option>
+        </select>
+        <input name="guests" placeholder="Количество гостей">
+        <textarea name="comment" placeholder="Комментарий"></textarea>
+        <button type="submit">Отправить ответ</button>
+        <p id="formStatus"></p>
+      </form>
+    </section>
+
+    <section class="screen final">
+      <p class="script">Ждём вас!</p>
+      <h2>Самир & Диана</h2>
+      <p>12 ноября 2026</p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
